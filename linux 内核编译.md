@@ -6,13 +6,14 @@
 3. 解压 tar -xf linux.xx
 4. config 
    三种选择：
-   - config 可以选择 make menuconfig， 自己配置
+   - make menuconfig， 自己配置
    - make oldconfig， 用系统的配置
    - 直接copy cp /boot/config-3.19.0-47-generic  .config
 5. make -j8
 6. 安装 make modules_install install
 7. 修改grub引导，重启
-   reboot
+    . grub 引导具体系统不同，我用的阿里云，参考[云服务器 ECS Linux CentOS 修改内核引导顺序](https://help.aliyun.com/knowledge_detail/41463.html)
+    . reboot
    
 ------------------------------------
 参考：
