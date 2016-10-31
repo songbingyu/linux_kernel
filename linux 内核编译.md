@@ -7,7 +7,7 @@
 4. config 
    三种选择：
    - make menuconfig， 自己配置
-   - make oldconfig， 用系统的配置
+   - make oldconfig， 用系统的配置  
    - 直接copy cp /boot/config-3.19.0-47-generic  .config
 5. make -j8
 6. 安装 make modules_install install
