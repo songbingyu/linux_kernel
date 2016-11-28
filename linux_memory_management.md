@@ -8,3 +8,4 @@
  实际地址的计算规则是selector左移4位加上offset
  
 ### 80286 的保护模式
+![flat mode](./image/flat_mode.png)
